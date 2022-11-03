@@ -109,9 +109,7 @@ speed = STARTSPEED
 def main():
     pygame.init()
 
-    global score
-
-    global speed
+    global score, speed
 
     clock = pygame.time.Clock()
     screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT), 0, 32)
