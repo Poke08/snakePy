@@ -35,7 +35,7 @@ class Snake(object):
         global score, speed
 
         speed = STARTSPEED
-        score = 0
+        score = STARTSCORE
         self.length = STARTLENGTH
         self.positions = [((SCREEN_WIDTH / 2), (SCREEN_HEIGHT / 2))]
         self.direction = random.choice([UP, DOWN, LEFT, RIGHT])
@@ -103,7 +103,8 @@ SPEEDCAP = 30
 STARTSPEED = 7
 STARTLENGTH = 1
 NUMFOODS = 5
-score = 0
+STARTSCORE = 0
+score = STARTSCORE
 speed = STARTSPEED
 
 def main():
